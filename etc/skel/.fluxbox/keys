@@ -68,7 +68,7 @@ Control Mod4 Left :TakeToPrevWorkspace
 Control Mod4 Right :TakeToNextWorkspace
 
 # Note on Workspaces. As we only configure 4 by default we won't have to assign
-# all these extra keys that are usable. 
+# all these extra keys that are not usable.
 
 # change to a specific workspace
 Control F1 :Workspace 1
