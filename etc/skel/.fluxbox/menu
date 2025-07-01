@@ -4,8 +4,10 @@
     [exec] (Run ...) {fbrun} <>
     [exec] (configure network) {sudo x-terminal-emulator -T "grml-network" -e /usr/sbin/grml-network} <>
     [exec] (configure and run terminalserver) {grml-exec-wrapper -p grml-terminalserver sudo x-terminal-emulator -T "grml-terminalserver" -e /usr/sbin/grml-terminalserver} <>
-    [exec] (Switch [flux]keys) {~/.fluxbox/toggle_keys.sh} <>
     [separator]
+    [submenu] (Switch keys) {} <>
+         [exec] (grml style) {~/.fluxbox/toggle_keys.sh grml} <>
+         [exec] (fluxbox style) {~/.fluxbox/toggle_keys.sh grml} <>
     [submenu] (Applications) {} <>
         [include] (/etc/X11/fluxbox/menudefs.hook) {} <>
     [end]
