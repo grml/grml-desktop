@@ -5,8 +5,8 @@
     [exec] (configure network) {sudo x-terminal-emulator -T "grml-network" -e /usr/sbin/grml-network} <>
     [exec] (configure and run terminalserver) {grml-exec-wrapper -p grml-terminalserver sudo x-terminal-emulator -T "grml-terminalserver" -e /usr/sbin/grml-terminalserver} <>
     [submenu] (Switch keys) {} <>
-        [exec] (grml style) {~/.fluxbox/toggle_keys.sh grml} <>
-        [exec] (fluxbox style) {~/.fluxbox/toggle_keys.sh fluxbox} </usr/share/images/fluxbox/fluxbox.png>
+        [exec] (grml) {~/.fluxbox/toggle_keys.sh grml} <>
+        [exec] (fluxbox) {~/.fluxbox/toggle_keys.sh fluxbox} </usr/share/images/fluxbox/fluxbox.png>
     [end]
     [separator]
     [submenu] (Applications) {} <>
