@@ -18,6 +18,7 @@ OnTitlebar  Move1  :StartMoving
 Control Mod1 Shift g :Exec ~/.fluxbox/toggle_keys.sh
 
 # Mod1 = Alt key
+# Mod4 = Logo key
 # Control = Ctrl Key
 # plus = +,*,~ key (german keyboard)
 # numbersign = #,' key (german keyboard)
@@ -95,6 +96,13 @@ Control Mod4 Shift Up    :Resize 0 -5%
 Control Mod4 Shift Down  :Resize 0 5%
 # Center Window
 Mod4 Home :MoveTo 0 0 Center
+
+# Arange Windows / Tiling
+Mod4 a :ArrangeWindows
+Mod4 v :ArrangeWindowsVertical
+Mod4 h :ArrangeWindowsHorizontal
+Mod4 x :ArrangeWindowsHorizontal (Class=[current])
+Mod4 z :ArrangeWindowsVertical (Class=[current])
 
 # Note on Workspaces. As we only configure 4 by default we won't have to assign
 # all these extra keys that are not usable.

@@ -18,6 +18,7 @@ OnTitlebar Move1 :StartMoving
 Control Mod1 Shift g :Exec ~/.fluxbox/toggle_keys.sh
 
 # Mod1 = Alt key
+# Mod4 = Logo key
 # Control = Ctrl Key
 # plus = +,*,~ key (german keyboard)
 # numbersign = #,' key (german keyboard)
@@ -31,19 +32,19 @@ OnDesktop Mouse3 :RootMenu
 OnDesktop Mouse4 :PrevWorkspace
 OnDesktop Mouse5 :NextWorkspace
 
-Mod1 Tab  	 :NextWindow
-Mod4 j		 :NextWindow
+Mod1 Tab         :NextWindow
+Mod4 j           :NextWindow
 
-Mod1 Shift Tab	 :PrevWindow
-Mod4 k	       	 :PrevWindow
+Mod1 Shift Tab   :PrevWindow
+Mod4 k           :PrevWindow
 
-Control Right		:NextWorkspace
-Mod1 Shift Right	:NextWorkspace
-Mod4 Right		:NextWorkspace
+Control Right           :NextWorkspace
+Mod1 Shift Right        :NextWorkspace
+Mod4 Right              :NextWorkspace
 
-Control Left		:PrevWorkspace
-Mod1 Shift Left	:PrevWorkspace
-Mod4 Left		:PrevWorkspace
+Control Left            :PrevWorkspace
+Mod1 Shift Left :PrevWorkspace
+Mod4 Left               :PrevWorkspace
 
 Mod1 q   :PrevWindow
 Mod1 w   :NextWindow
@@ -95,7 +96,7 @@ Control Mod1 a  :ArrangeWindows
 
 # keymappings for programs
 Control Mod1 l :ExecCommand xlock
-Control Mod1 f :ExecCommand firefox
+Control Mod1 f :ExecCommand x-www-browser
 
 # screenshot
 Control Shift s :ExecCommand import -window root `date +shot-%Y-%m-%d-%H%M%S.jpg`
