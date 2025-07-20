@@ -14,6 +14,8 @@ grml-desktop: package-contains-file-in-etc-skel [etc/skel/.config/rox.sourceforg
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/]
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/fbrun_history]
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/fluxkeys]
+grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/icons/fluxbox.xpm]
+grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/icons/grml.svg]
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/init]
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/keys]
 grml-desktop: package-contains-file-in-etc-skel [etc/skel/.fluxbox/menu]
